@@ -18,10 +18,13 @@ module.exports = {
     if (!platform.isLinux) {
       win.removeAllListeners('close');
       win.on('close', function(quit) {
-        // Fullscreen apps on OSX must close to prevent black screen.
-        if (quit || (platform.isOSX && win.isFullscreen)) {
+        if (quit) {
           this.saveWindowState(win);
           win.close(true);
+        } else if (platform.isOSX && win.isFullscreen) { // Fullscreen apps on OSX must close to prevent black screen.
+          // Ideally we would just close the window, but it leads to a crash because of https://github.com/nwjs/nw.js/issues/3966.
+          // So for now, we have to quit to avoid a crash or blackscreen.
+          gui.App.quit();
         } else {
           win.hide();
         }

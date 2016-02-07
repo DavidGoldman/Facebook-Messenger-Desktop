@@ -61,6 +61,10 @@ input::-webkit-input-placeholder {
 ._nd_ ._hh7:active, ._nd_._-5k ._hh7, ._nd_ ._hh7>span>a:hover {
 	background-color: #003377 !important;
 }
+/* sent circle */
+._3i_m ._2her {
+	color: #004488 !important;
+}
 /* link info */
 ._haj {
 	border-color: rgba(255, 255, 255, .1) !important;
@@ -186,6 +190,6 @@ div._4-i2, div._5a8u {
 
 /* stuff that should be grey */
 ._ih3, ._3tl0, ._3tl1 ._10w4, ._1htf, ._497p, ._3x6v, ._2v6o, ._3tky, ._5rh4, ._jf4 ._jf3, ._haj .__6m, ._2y8z,
-._4g0h, ._3xcx, ._225b, ._3q35, ._3oh-, ._3eus {
+._4g0h, ._3xcx, ._225b, ._3q35, ._3oh-, ._3eus, ._2jnv {
 	color: rgba(255, 255, 255, .6) !important;
 }

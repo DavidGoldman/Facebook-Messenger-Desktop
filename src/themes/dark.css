@@ -208,3 +208,36 @@ div._4-i2, div._5a8u {
 ._5i_d .__6m {
 	color: rgba(255, 255, 255, .4) !important;
 }
+
+/* Stickers Popup */
+
+/* Search Bar */
+._55r1 {
+	background: #2d2d30 !important;
+	border-color: #666 !important;
+}
+/* Bottom Gradient */
+._5r8l .uiScrollableArea.contentAfter:after {
+	background: linear-gradient(rgba(30, 30, 30, .05), #1E1E1E) !important;
+}
+
+/* Horizontal Divider */
+._5r8e {
+	border-bottom-color: #666 !important;
+}
+/* Short Vertical Bar */
+._eb3:before {
+	background-color: #666 !important;
+}
+/* 1st Long Vertical Bar at right */
+._37wv {
+	border-left-color: #666 !important;
+}
+/* 2nd Long Vertical Bar at right */
+._5r86 {
+    border-left-color: #666 !important;
+}
+/* Long Vertical Bar at left */
+._37wu {
+	border-right-color: #666 !important;
+}

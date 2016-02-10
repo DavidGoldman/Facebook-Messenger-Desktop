@@ -193,3 +193,18 @@ div._4-i2, div._5a8u {
 ._4g0h, ._3xcx, ._225b, ._3q35, ._3oh-, ._3eus, ._2jnv {
 	color: rgba(255, 255, 255, .6) !important;
 }
+
+/* Link Previews/Summary Text */
+
+/* Title */
+._5i_d .__6k {
+	color: white !important;
+}
+/* Summary */
+._5i_d .__6l {
+	color: rgba(255, 255, 255, .6) !important;
+}
+/* Domain */
+._5i_d .__6m {
+	color: rgba(255, 255, 255, .4) !important;
+}

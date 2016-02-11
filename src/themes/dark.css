@@ -220,6 +220,10 @@ div._4-i2, div._5a8u {
 ._5r8l .uiScrollableArea.contentAfter:after {
 	background: linear-gradient(rgba(30, 30, 30, .05), #1E1E1E) !important;
 }
+/* Sticker hover background */
+._5r8h:hover {
+    background-color: rgba(255, 255, 255, .6) !important;
+}
 
 /* Horizontal Divider */
 ._5r8e {
